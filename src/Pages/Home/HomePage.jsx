@@ -14,7 +14,7 @@ import Review from "../../components/home/Review";
 import Contact from "../../components/home/Contact";
 import Brand from "../../components/home/Brand";
 import Chat from "../../components/chatbot/MainChat";
-// https://apiforstravel.herokuapp.com/home/
+// hhttps://lccspy-3000.csb.app/home/
 function HomePage(props) {
   useEffect(() => {
     window.scroll({

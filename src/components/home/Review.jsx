@@ -25,7 +25,7 @@ class ReviewRate extends React.Component {
   }
 
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/home")
+    fetch("hhttps://lccspy-3000.csb.app/home")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -54,10 +54,10 @@ class ReviewRate extends React.Component {
       )
       .then(
         (result) => {
-            alert(
-              "Stravel đã ghi nhận lời đánh giá của bạn. Chúng tôi sẽ cố gắng để làm tốt hơn những gì có thể!"
-            );
-         e.preventDefault(); //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
+          alert(
+            "Stravel đã ghi nhận lời đánh giá của bạn. Chúng tôi sẽ cố gắng để làm tốt hơn những gì có thể!"
+          );
+          e.preventDefault(); //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
         },
         (error) => {
           console.log(error.text);
@@ -128,7 +128,7 @@ export default class Review extends React.Component {
   }
 
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/home")
+    fetch("hhttps://lccspy-3000.csb.app/home")
       .then((res) => res.json())
       .then(
         (result) => {

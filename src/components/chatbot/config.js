@@ -89,17 +89,17 @@ const config = {
         options: [
           {
             text: "View my db Json",
-            url: "https://apiforstravel.herokuapp.com/",
+            url: "hhttps://lccspy-3000.csb.app/",
             id: 1,
           },
           {
             text: "Contact me !",
-            url: "https://duongcontact.vercel.app/",
+            url: "https://duong.vercel.app/",
             id: 2,
           },
           {
             text: "Trang Web được làm bởi Dương...",
-            url: "https://github.com/DuongNguyen321/codestravel",
+            url: "https://github.com/duongnguyen321/stravel",
             id: 3,
           },
         ],

@@ -12,7 +12,7 @@ class England extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/gallery")
+    fetch("hhttps://lccspy-3000.csb.app/gallery")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -37,7 +37,10 @@ class England extends React.Component {
         <h1 className="heading">
           {this.state.EnglandHeading.map((EnglandHeading) => {
             return (
-              <span key={EnglandHeading.id} className={EnglandHeading.className}>
+              <span
+                key={EnglandHeading.id}
+                className={EnglandHeading.className}
+              >
                 {EnglandHeading.text}
               </span>
             );

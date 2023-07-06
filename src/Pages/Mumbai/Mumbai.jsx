@@ -18,7 +18,7 @@ class Home extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/3")
+    fetch("hhttps://lccspy-3000.csb.app/pages/3")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -72,7 +72,7 @@ class Bookform extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/3")
+    fetch("hhttps://lccspy-3000.csb.app/pages/3")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -196,7 +196,7 @@ class Destination extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/3")
+    fetch("hhttps://lccspy-3000.csb.app/pages/3")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -229,10 +229,7 @@ class Destination extends React.Component {
                 className="box"
               >
                 <div className="image">
-                  <img
-                    src={destinationBox.src}
-                    alt={destinationBox.h3}
-                  />
+                  <img src={destinationBox.src} alt={destinationBox.h3} />
                 </div>
                 <div className="content">
                   <h3>{destinationBox.h3}</h3>
@@ -257,7 +254,7 @@ class Services extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/3")
+    fetch("hhttps://lccspy-3000.csb.app/pages/3")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -308,7 +305,7 @@ class Gallery extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/3")
+    fetch("hhttps://lccspy-3000.csb.app/pages/3")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -360,7 +357,7 @@ class Blog extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/3")
+    fetch("hhttps://lccspy-3000.csb.app/pages/3")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -422,7 +419,7 @@ class Review extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/3")
+    fetch("hhttps://lccspy-3000.csb.app/pages/3")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -440,7 +437,6 @@ class Review extends React.Component {
       );
   }
 
-  
   render() {
     return (
       <section className="review">
@@ -502,7 +498,7 @@ class Review extends React.Component {
       </section>
     );
   }
-};
+}
 const Banner = () => {
   return (
     <div className="banner">

@@ -14,7 +14,7 @@ export default class Packages extends React.Component {
   }
 
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/home")
+    fetch("hhttps://lccspy-3000.csb.app/home")
       .then((res) => res.json())
       .then(
         (result) => {

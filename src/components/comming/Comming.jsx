@@ -43,7 +43,7 @@ const Section = () => {
     <section>
       <img
         alt="img"
-        src="https://apiforstravel.herokuapp.com/images/Home/curve.png"
+        src="hhttps://lccspy-3000.csb.app/images/Home/curve.png"
         className="wave"
       />
       <div className="contentBx">
@@ -74,22 +74,31 @@ const Section = () => {
         <button onClick={handleAdd}>Thông báo cho tôi</button>
       </div>
       <div className="imgBx">
-        <img alt="img" src="https://apiforstravel.herokuapp.com/images/Home/man.png" />
+        <img alt="img" src="hhttps://lccspy-3000.csb.app/images/Home/man.png" />
       </div>
       <ul className="sci">
         <li>
           <Link to="/">
-            <img alt="img" src="https://apiforstravel.herokuapp.com/images/Home/facebook.png" />
+            <img
+              alt="img"
+              src="hhttps://lccspy-3000.csb.app/images/Home/facebook.png"
+            />
           </Link>
         </li>
         <li>
           <Link to="/">
-            <img alt="img" src="https://apiforstravel.herokuapp.com/images/Home/instagram.png" />
+            <img
+              alt="img"
+              src="hhttps://lccspy-3000.csb.app/images/Home/instagram.png"
+            />
           </Link>
         </li>
         <li>
           <Link to="/">
-            <img alt="img" src="https://apiforstravel.herokuapp.com/images/Home/twitter.png" />
+            <img
+              alt="img"
+              src="hhttps://lccspy-3000.csb.app/images/Home/twitter.png"
+            />
           </Link>
         </li>
       </ul>
@@ -103,7 +112,11 @@ const Newsletter = () => {
   }
   return (
     <div className="newsletter">
-      <img alt="img" src="https://apiforstravel.herokuapp.com/images/Home/close.png" onClick={handleRemove} />
+      <img
+        alt="img"
+        src="hhttps://lccspy-3000.csb.app/images/Home/close.png"
+        onClick={handleRemove}
+      />
       <h2>thông báo cho tôi</h2>
       <p>Nhập email của bạn</p>
       <div className="inputBox">
@@ -148,7 +161,7 @@ export default function CommingSoon() {
       <Header />
       <Section />
       <Newsletter />
-      <Chat/>
+      <Chat />
     </div>
   );
 }

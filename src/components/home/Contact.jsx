@@ -11,7 +11,7 @@ export default class Contact extends React.Component {
   }
 
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/home")
+    fetch("hhttps://lccspy-3000.csb.app/home")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -44,7 +44,7 @@ export default class Contact extends React.Component {
           alert(
             "Stravel đã ghi nhận lời liên hệ của bạn. Chúng tôi sẽ liên hệ lại với bạn sớm nhất có thể"
           );
-         e.preventDefault(); //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
+          e.preventDefault(); //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
         },
         (error) => {
           console.log(error.text);

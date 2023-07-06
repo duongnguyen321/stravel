@@ -18,7 +18,7 @@ class Home extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/6")
+    fetch("hhttps://lccspy-3000.csb.app/pages/6")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -72,7 +72,7 @@ class Bookform extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/6")
+    fetch("hhttps://lccspy-3000.csb.app/pages/6")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -196,7 +196,7 @@ class Destination extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/6")
+    fetch("hhttps://lccspy-3000.csb.app/pages/6")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -254,7 +254,7 @@ class Services extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/6")
+    fetch("hhttps://lccspy-3000.csb.app/pages/6")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -305,7 +305,7 @@ class Gallery extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/6")
+    fetch("hhttps://lccspy-3000.csb.app/pages/6")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -357,7 +357,7 @@ class Blog extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/6")
+    fetch("hhttps://lccspy-3000.csb.app/pages/6")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -419,7 +419,7 @@ class Review extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/6")
+    fetch("hhttps://lccspy-3000.csb.app/pages/6")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -437,7 +437,6 @@ class Review extends React.Component {
       );
   }
 
-  
   render() {
     return (
       <section className="review">
@@ -499,7 +498,7 @@ class Review extends React.Component {
       </section>
     );
   }
-};
+}
 const Banner = () => {
   return (
     <div className="banner">

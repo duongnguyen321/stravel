@@ -12,7 +12,7 @@ class China extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/gallery")
+    fetch("hhttps://lccspy-3000.csb.app/gallery")
       .then((res) => res.json())
       .then(
         (result) => {

@@ -18,7 +18,7 @@ class Home extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/9")
+    fetch("hhttps://lccspy-3000.csb.app/pages/9")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -72,7 +72,7 @@ class Bookform extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/9")
+    fetch("hhttps://lccspy-3000.csb.app/pages/9")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -113,37 +113,31 @@ class Bookform extends React.Component {
 }
 const About = () => {
   const handleVidbtn1 = () => {
-      document
-      .querySelectorAll(".control-btn1")
-      .forEach((btn1) => {
-        let src = btn1.getAttribute("data-src");
-        btn1.classList.add("active")
-        document.querySelector(".control-btn2").classList.remove("active");
-        document.querySelector(".control-btn3").classList.remove("active");
-        document.querySelector(".about .video-container .video").src = src;
-      });
+    document.querySelectorAll(".control-btn1").forEach((btn1) => {
+      let src = btn1.getAttribute("data-src");
+      btn1.classList.add("active");
+      document.querySelector(".control-btn2").classList.remove("active");
+      document.querySelector(".control-btn3").classList.remove("active");
+      document.querySelector(".about .video-container .video").src = src;
+    });
   };
   const handleVidbtn2 = () => {
-      document
-      .querySelectorAll(".control-btn2")
-      .forEach((btn2) => {
-        let src = btn2.getAttribute("data-src");
-        btn2.classList.add("active")
-            document.querySelector(".control-btn1").classList.remove("active")
-            document.querySelector(".control-btn3").classList.remove("active")
-        document.querySelector(".about .video-container .video").src = src;
-      });
+    document.querySelectorAll(".control-btn2").forEach((btn2) => {
+      let src = btn2.getAttribute("data-src");
+      btn2.classList.add("active");
+      document.querySelector(".control-btn1").classList.remove("active");
+      document.querySelector(".control-btn3").classList.remove("active");
+      document.querySelector(".about .video-container .video").src = src;
+    });
   };
   const handleVidbtn3 = () => {
-      document
-      .querySelectorAll(".control-btn3")
-      .forEach((btn3) => {
-        let src = btn3.getAttribute("data-src");
-        btn3.classList.add("active")
-        document.querySelector(".control-btn1").classList.remove("active");
-        document.querySelector(".control-btn2").classList.remove("active");
-        document.querySelector(".about .video-container .video").src = src;
-      });
+    document.querySelectorAll(".control-btn3").forEach((btn3) => {
+      let src = btn3.getAttribute("data-src");
+      btn3.classList.add("active");
+      document.querySelector(".control-btn1").classList.remove("active");
+      document.querySelector(".control-btn2").classList.remove("active");
+      document.querySelector(".about .video-container .video").src = src;
+    });
   };
   return (
     <section className="about" id="about">
@@ -202,7 +196,7 @@ class Destination extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/9")
+    fetch("hhttps://lccspy-3000.csb.app/pages/9")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -260,7 +254,7 @@ class Services extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/9")
+    fetch("hhttps://lccspy-3000.csb.app/pages/9")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -311,7 +305,7 @@ class Gallery extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/9")
+    fetch("hhttps://lccspy-3000.csb.app/pages/9")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -363,7 +357,7 @@ class Blog extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/9")
+    fetch("hhttps://lccspy-3000.csb.app/pages/9")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -425,7 +419,7 @@ class Review extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("https://apiforstravel.herokuapp.com/pages/9")
+    fetch("hhttps://lccspy-3000.csb.app/pages/9")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -443,7 +437,6 @@ class Review extends React.Component {
       );
   }
 
-  
   render() {
     return (
       <section className="review">
@@ -505,7 +498,7 @@ class Review extends React.Component {
       </section>
     );
   }
-};
+}
 const Banner = () => {
   return (
     <div className="banner">
