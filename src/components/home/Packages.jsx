@@ -14,7 +14,7 @@ export default class Packages extends React.Component {
   }
 
   componentDidMount() {
-    fetch("hhttps://lccspy-3000.csb.app/home")
+    fetch("https://lccspy-3000.csb.app/home")
       .then((res) => res.json())
       .then(
         (result) => {

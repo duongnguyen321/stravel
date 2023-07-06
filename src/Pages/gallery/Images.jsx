@@ -13,7 +13,7 @@ import England from "../../components/gallery/England";
 import Laocai from "../../components/gallery/Laocai";
 import Chat from "../../components/chatbot/MainChat";
 import Home from "../../components/gallery/Home";
-// hhttps://lccspy-3000.csb.app/images/
+// https://lccspy-3000.csb.app/images/
 
 export default function Images() {
   useEffect(() => {

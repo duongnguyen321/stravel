@@ -43,7 +43,7 @@ const Section = () => {
     <section>
       <img
         alt="img"
-        src="hhttps://lccspy-3000.csb.app/images/Home/curve.png"
+        src="https://lccspy-3000.csb.app/images/Home/curve.png"
         className="wave"
       />
       <div className="contentBx">
@@ -74,14 +74,14 @@ const Section = () => {
         <button onClick={handleAdd}>Thông báo cho tôi</button>
       </div>
       <div className="imgBx">
-        <img alt="img" src="hhttps://lccspy-3000.csb.app/images/Home/man.png" />
+        <img alt="img" src="https://lccspy-3000.csb.app/images/Home/man.png" />
       </div>
       <ul className="sci">
         <li>
           <Link to="/">
             <img
               alt="img"
-              src="hhttps://lccspy-3000.csb.app/images/Home/facebook.png"
+              src="https://lccspy-3000.csb.app/images/Home/facebook.png"
             />
           </Link>
         </li>
@@ -89,7 +89,7 @@ const Section = () => {
           <Link to="/">
             <img
               alt="img"
-              src="hhttps://lccspy-3000.csb.app/images/Home/instagram.png"
+              src="https://lccspy-3000.csb.app/images/Home/instagram.png"
             />
           </Link>
         </li>
@@ -97,7 +97,7 @@ const Section = () => {
           <Link to="/">
             <img
               alt="img"
-              src="hhttps://lccspy-3000.csb.app/images/Home/twitter.png"
+              src="https://lccspy-3000.csb.app/images/Home/twitter.png"
             />
           </Link>
         </li>
@@ -114,7 +114,7 @@ const Newsletter = () => {
     <div className="newsletter">
       <img
         alt="img"
-        src="hhttps://lccspy-3000.csb.app/images/Home/close.png"
+        src="https://lccspy-3000.csb.app/images/Home/close.png"
         onClick={handleRemove}
       />
       <h2>thông báo cho tôi</h2>

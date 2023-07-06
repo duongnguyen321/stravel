@@ -16,7 +16,7 @@ class Home extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("hhttps://lccspy-3000.csb.app/pages/8")
+    fetch("https://lccspy-3000.csb.app/pages/8")
       .then((res) => res.json())
       .then(
         (result) => {

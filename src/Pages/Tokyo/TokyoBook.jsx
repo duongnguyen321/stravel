@@ -14,7 +14,7 @@ class Home extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("hhttps://lccspy-3000.csb.app/pages/6")
+    fetch("https://lccspy-3000.csb.app/pages/6")
       .then((res) => res.json())
       .then(
         (result) => {
@@ -68,7 +68,7 @@ class Book extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("hhttps://lccspy-3000.csb.app/pages/6")
+    fetch("https://lccspy-3000.csb.app/pages/6")
       .then((res) => res.json())
       .then(
         (result) => {

@@ -12,7 +12,7 @@ class England extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("hhttps://lccspy-3000.csb.app/gallery")
+    fetch("https://lccspy-3000.csb.app/gallery")
       .then((res) => res.json())
       .then(
         (result) => {

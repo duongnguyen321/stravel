@@ -14,7 +14,7 @@ import Review from "../../components/home/Review";
 import Contact from "../../components/home/Contact";
 import Brand from "../../components/home/Brand";
 import Chat from "../../components/chatbot/MainChat";
-// hhttps://lccspy-3000.csb.app/home/
+// https://lccspy-3000.csb.app/home/
 function HomePage(props) {
   useEffect(() => {
     window.scroll({

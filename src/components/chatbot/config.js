@@ -89,7 +89,7 @@ const config = {
         options: [
           {
             text: "View my db Json",
-            url: "hhttps://lccspy-3000.csb.app/",
+            url: "https://lccspy-3000.csb.app/",
             id: 1,
           },
           {
